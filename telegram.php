@@ -29,8 +29,8 @@ function send($token, $chatid, $text, $proxy=NULL, $auth=NULL){
 	return $result;
 }
 
-$token='1460817223:AAGwTCD1sUKlS_1jrytPYg3PqX6-M_zIFf4';
-$chatIds = array("1582487357","1585849853");
+$token='';
+$chatIds = array("","");
 $text  = "<b>Пропущенный звонок</b>\n";
 $text .= "Номер: " . $argv[1] . "\n";
 $text .= "Дата: " . $argv[2];
